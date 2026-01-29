@@ -34,7 +34,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            From the glitz of the Ritz, to a pizza van on the coast, we're a creative collective focused on the folk who serve, feed & host.
+            From the glitz of the Ritz, to a pizza van on the coast, we&apos;re a creative collective focused on the folk who serve, feed & host.
           </motion.h1>
           
           {/* Animated Video Section */}
@@ -62,7 +62,7 @@ export default function Home() {
               <p className="text-[18px] md:text-[23px] leading-relaxed mb-6" style={{ color: '#115E3C' }}>
                 We help hospitality and F&B brands create distinctive experiences that resonate with their guests and getting them coming back for more.
               </p>
-              <a href="#" className="underline" style={{ color: '#115E3C' }}>Our expertise</a>
+               <span className="underline" style={{ color: '#115E3C' }}>Our expertise</span>
             </motion.div>
             
             <motion.div
@@ -94,7 +94,7 @@ export default function Home() {
               viewport={{ once: true }}
             >
               <div className="px-6 md:px-0">
-                <p className="text-[18px] md:text-[40px] custom-heading mb-12" style={{ color: '#115E3C' }}>We've worked with</p>
+                <p className="text-[18px] md:text-[40px] custom-heading mb-12" style={{ color: '#115E3C' }}>We&apos;ve worked with</p>
               </div>
               
               <div className="relative h-[600px] overflow-hidden">
