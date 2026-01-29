@@ -22,7 +22,7 @@ export default function Footer() {
             viewport={{ once: true }}
           >
             Have something we could work on together?<br />
-            we'd love to chat.
+            we&apos;d love to chat.
           </motion.h2>
           <motion.p 
             className="text-white text-lg mb-16"
@@ -48,36 +48,10 @@ export default function Footer() {
 
       {/* Footer */}
       <footer className="bg-[#115E3C] px-6 pb-8 md:px-12 lg:px-24">
-  <div className="max-w-[1800px] mx-auto">
-    <div className="grid md:grid-cols-4 gap-8 text-white text-sm">
-      <div>
-        <p className="text-[18px] md:text-[23px]">London & Cornwall</p>
-      </div>
-      <div>
-        <p className="text-[18px] md:text-[23px]">studio@gather-together.co.uk</p>
-        <p className="text-[18px] md:text-[23px]">+44 (0)1208 816 870</p>
-      </div>
-      <div>
-        <p>Follow us</p>
-        <div className="flex space-x-4 mt-2">
-          <a href="#" className="hover:underline">📷</a>
-        </div>
-      </div>
-      <div className="flex justify-end">
-        <img 
-          src="images/Clean-Creatives-Seal.png" 
-          alt="Creative Approved Logo"
-          className="w-16 h-16 md:w-30 md:h-30 opacity-50 hover:opacity-100 transition-opacity"
-        />
-      </div>
-    </div>
-    <div className="mt-8 pt-8">    
-      <p className="text-white text-xs">
-        All works © Gather Together 2024. All rights reserved.
-      </p>
-    </div>
-  </div>
-</footer>
-    </>
-  )
-}
+        <div className="max-w-[1800px] mx-auto">
+          <div className="grid md:grid-cols-4 gap-8 text-white text-sm">
+            <div>
+              <p className="text-[18px] md:text-[23px]">London &amp; Cornwall</p>
+            </div>
+            <div>
+              <p className="text-[18px]
